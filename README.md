@@ -1,5 +1,3 @@
-# Ratings-of-Hydraulic-Fracturing-Crews-for-management
-
 
 # 🛢️ Оценка эффективности флотов ГРП для руководства
 
