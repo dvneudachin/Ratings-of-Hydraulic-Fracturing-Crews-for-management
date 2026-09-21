@@ -1,4 +1,42 @@
 # Ratings-of-Hydraulic-Fracturing-Crews-for-management
+
+markdown
+# 🛢️ Оценка эффективности флотов ГРП для руководства
+
+> **Аналитический кейс:** как за 5 слайдов найти точку, где компания теряет миллиарды рублей — и что с этим делать.
+
+[![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)](https://python.org)
+[![pandas](https://img.shields.io/badge/pandas-2.x-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-PCA-F7931E?logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+---
+
+## 💼 Задача
+
+Парк из **5 флотов ГРП** выполнил **1 562 операции** за год.
+Средние показатели по парку выглядят ровно: одинаковая длительность операций, одинаковые объёмы закачки, одинаковое число стадий.
+
+**Руководство не видело проблемы, потому что смотрело на средние значения.**
+
+Внутри этих средних скрывался **двукратный разрыв** по скорости работы между лучшим и худшим флотом. На уровне года это превращалось в **десятки миллиардов рублей** упущенной выручки.
+
+> **Цель проекта:** найти, где реально теряются деньги, и дать руководству конкретные рекомендации — без покупки новых флотов и без изменения технологии.
+
+---
+
+## 🎯 Что сделано
+
+| Этап | Инструмент | Результат |
+|------|------------|-----------|
+| Очистка данных | pandas, numpy | 1 562 операции, 12 признаков, без пропусков |
+| Инженерные метрики | pandas | 8 производных показателей: скорость, простои, продуктивность |
+| Визуальная диагностика | matplotlib, seaborn | 5 ключевых слайдов для руководства |
+| Оценка эффекта | Monte Carlo (20 000 симуляций) | Доверительные интервалы экономического эффекта |
+| Приоритизация | Правило Парето | 2 флота дают 70% потерь |
+
+
+
 <img width="2595" height="1350" alt="general" src="https://github.com/user-attachments/assets/7d888677-69b3-46c6-bd98-85422ac80e9d" />
 <img width="2334" height="697" alt="trap" src="https://github.com/user-attachments/assets/3c52c6c5-2501-44e9-8e42-b99830259117" />
 <img width="2358" height="903" alt="time" src="https://github.com/user-attachments/assets/e1157f33-05bc-4dba-81c2-313830be9a6a" />
