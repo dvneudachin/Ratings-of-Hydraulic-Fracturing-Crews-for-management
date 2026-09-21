@@ -6,6 +6,7 @@
 <img width="2783" height="1721" alt="working time flows" src="https://github.com/user-attachments/assets/b806b2b1-876b-4d76-bbe7-0866f24d11af" />
 <img width="2366" height="1053" alt="monte-carlo" src="https://github.com/user-attachments/assets/ba801805-c587-47eb-9c67-fdf19c75fea4" />
 
+
 **Выводы:**
 Парк из 5 флотов ГРП выполняет одинаковый объём работ, но с разной скоростью. Разница в организации времени. Два флота создают около 70% потерь. Точечная работа с ними даёт эффект, измеримый в миллионах рублей.
 
